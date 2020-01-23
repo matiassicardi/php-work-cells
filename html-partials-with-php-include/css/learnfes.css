@@ -1,0 +1,166 @@
+/*
+Here start the added CSS by Matias Sicardi
+*/
+
+body {
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+.italictext {font-style: italic;}
+
+.shadowtext {text-shadow: white 1px 1px 1px;}
+
+header.masthead .page-heading .subheading, header.masthead .site-heading .subheading {
+    margin: 15px 0 0;
+}
+
+/*Fonts changes start*/
+
+@media only screen and (min-width: 768px) {
+	header.masthead .page-heading h1, header.masthead .site-heading h1 {
+    font-size: 70px;
+	 }
+
+	header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+    padding: 100px 0;
+  }
+
+  .serviceicontext {
+  font-size: 16px;
+  margin: 15px 0 30px 0;
+  }
+}
+
+
+.serviceicon {
+    height: 5em;
+    margin-bottom: 15%;
+}
+
+.card-title {font-family: 'Lato', sans-serif; font-size: 1.4rem;}
+
+.card-subtitle {font-family: 'Lato', sans-serif;}
+
+
+
+
+.fa, .fas {
+    font-weight: 1000;
+    font-size: 50px;
+    margin-bottom: 10%;
+    }
+
+/*.serviceicontext {
+  font-size: 16px;
+  margin: 15px 0 30px 0;
+}*/
+
+a:focus, a:hover {
+  color: #0085A1;
+  text-decoration: none;
+}
+
+
+
+
+.special-quotes{
+  padding: 15px;
+    margin: 30px 0;
+    border-left: 2px solid #111;
+    background: #f7f7f7;
+    font-size: 16px;
+}
+
+
+ol.numerado {list-style-type: decimal;}
+
+ol.letrado {list-style-type: lower-latin;}
+
+
+.carousel-item > div {
+  float: left;
+}
+.carousel-by-item [class*="cloneditem-"] {
+  display: none;
+}
+
+.client-image{
+  margin: 0 20px 20px 0;
+}
+
+
+
+.sponsor-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+h3.post-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-family: 'Lato', sans-serif;
+}
+
+.resources-name{
+  font-size: 15px;
+}
+
+.resources-item{
+  
+}
+
+p a {
+    text-decoration: none;
+}
+
+.llamada {
+  font-family: 'Playfair Display', serif; 
+  font-style: italic;
+  font-size: 18px;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: #FFFFFF;
+  border-bottom: #FFFFFF;
+}
+
+.leermas {
+  font-family: 'Playfair Display', serif; 
+  font-style: italic;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #000000;
+}
